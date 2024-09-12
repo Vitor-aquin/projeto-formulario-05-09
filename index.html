@@ -7,7 +7,11 @@
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
   
   <title>Frontend Mentor | Contact form</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
+  
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
@@ -23,38 +27,42 @@
 
    
       <div class="campoNome">
-        <div class="Primeiro Nome">
+        <div class="PrimeiroNome">
           <label for="nome">First Name</label>
           <input type="text">
-          This field is required  
+           
       </div>
       <div class="Sobrenome">
         <label for="sobrenome">Last Name</label>
         <input type="text">
-        This field is required
+       
 
       </div>
     </div>
     <div class="campoEmail">
-      <label for="Email Address"></label>
+      <label for="Email Address">Email Address</label>
       <input type="text" name="" id="">
-      Please enter a valid email address
-      This field is required
+     
     </div>
   </div>
+  <h4> Query Type </h4>
   <div class=" campodeselecao">
-    <h4> Query Type </h4>
-    <input type="checkbox" name="">
+    <div class="campo1">
+    <input type="radio" name="">
     <label for="">General Enquiry</label>
-    <input type="checkbox" name="">
+    </div>
+    <div class="campo">
+    <input type="radio" name="">
     <label for="">Support Request</label>
-    Please select a query type
+    </div>
+   
   </div>
   <div class="campoMensagem">
-    <label for="Message"></label>
+    <label for="Message">Message</label>
     <input type="text">
-    This field is required
+   
   </div>
+  
   <input type="checkbox">
   <label for="">I consent to being contacted by the team</label>
   o submit this form, please consent to being contacted
@@ -62,8 +70,7 @@
   
   <button type="submit">Submit</button>
 
-  Message Sent!
-    Thanks for completing the form. We'll be in touch soon!
+  
     </form>
 
   </section>
